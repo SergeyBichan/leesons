@@ -1,5 +1,8 @@
-import impl.Water;
-import parts.Spine;
+package lesson_2.task2;
+
+
+import lesson_2.task2.impl.Water;
+import lesson_2.task2.parts.Spine;
 
 public class Whale extends Mammal implements Water {
 

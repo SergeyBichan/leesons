@@ -1,8 +1,11 @@
-import parts.Spine;
+package lesson_2.task2;
+
+
+import lesson_2.task2.parts.Spine;
 
 import java.util.Objects;
 
-public abstract class Mammal extends Animal{
+public abstract class Mammal extends Animal {
 
     private Spine spine;
 

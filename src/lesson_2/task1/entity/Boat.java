@@ -1,8 +1,8 @@
-package lesson_2.task1;
+package lesson_2.task1.entity;
 
 
-import lesson_2.task1.impl.Action;
-import lesson_2.task1.parts.Propeller;
+import lesson_2.task1.entity.abstrct.FreightVehicle;
+import lesson_2.task1.entity.parts.Propeller;
 
 import java.util.Objects;
 
@@ -33,6 +33,7 @@ public class Boat extends FreightVehicle {
         return "Boat{" +
                 "propeller=" + propeller +
                 ", name='" + this.getClass().getName() + '\'' +
+                ", cargo='" + this.getCargoCounter() +
                 '}';
     }
 

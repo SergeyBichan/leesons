@@ -1,4 +1,7 @@
-import impl.Water;
+package lesson_2.task2;
+
+
+import lesson_2.task2.impl.Water;
 
 public class Fish extends Animal implements Water {
 

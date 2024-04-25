@@ -1,4 +1,4 @@
-package lesson_2.task1;
+package lesson_2.task1.entity.abstrct;
 
 import lesson_2.task1.impl.Action;
 

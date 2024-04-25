@@ -1,4 +1,4 @@
-package lesson_2.task1.parts;
+package lesson_2.task1.entity.parts;
 
 public class Propeller {
     @Override

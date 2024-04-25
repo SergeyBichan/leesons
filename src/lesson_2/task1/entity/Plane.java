@@ -1,10 +1,10 @@
-package lesson_2.task1;
+package lesson_2.task1.entity;
 
 
-import lesson_2.task1.impl.Action;
-import lesson_2.task1.parts.Wheel;
-import lesson_2.task1.parts.Wing;
-import lesson_2.task1.parts.Propeller;
+import lesson_2.task1.entity.abstrct.FreightVehicle;
+import lesson_2.task1.entity.parts.Wheel;
+import lesson_2.task1.entity.parts.Wing;
+import lesson_2.task1.entity.parts.Propeller;
 
 import java.util.Objects;
 
@@ -52,26 +52,18 @@ public class Plane extends FreightVehicle {
     }
 
 
-//    @Override
-//    public String toString() {
-//        return "Plane{" +
-//                "wheel=" + wheel +
-//                ", wing=" + wing +
-//                ", propeller=" + propeller +
-//                ", name='" + this.getClass().getName() + '\'' +
-//                '}';
-//    }
-
-
     @Override
     public String toString() {
         return "Plane{" +
                 "wheel=" + wheel +
                 ", wing=" + wing +
                 ", propeller=" + propeller +
+                ", name='" + this.getClass().getName() + '\'' +
                 ", cargo='" + this.getCargoCounter() +
                 '}';
     }
+
+
 
     @Override
     public boolean equals(Object o) {

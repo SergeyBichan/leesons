@@ -1,5 +1,8 @@
-import parts.Spine;
-import parts.Wool;
+package lesson_2.task2;
+
+
+import lesson_2.task2.parts.Spine;
+import lesson_2.task2.parts.Wool;
 
 import java.util.Objects;
 

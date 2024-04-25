@@ -1,7 +1,8 @@
-package lesson_2.task1;
+package lesson_2.task1.entity;
 
 
-import lesson_2.task1.parts.Wheel;
+import lesson_2.task1.entity.abstrct.Vehicle;
+import lesson_2.task1.entity.parts.Wheel;
 
 import java.util.Objects;
 
