@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4a70c72-0775-44f8-b180-328f83aba414" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lesson_3/task1/simpleArray/MySimpleArrayIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson_3/task1/simpleArray/MySimpleArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson_3/task1/simpleArray/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson_3/task1/simpleArray/SimpleArrayList.java" afterDir="false" />
+    <list default="true" id="d4a70c72-0775-44f8-b180-328f83aba414" name="Changes" comment="third commit">
+      <change afterPath="$PROJECT_DIR$/src/lesson_3/task1/simpleArray/second_variant/arraylist/SecondSimpleArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson_2/task3/entity/impl/NotProcedural.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_2/task3/entity/impl/NotProcedural.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson_3/task1/simpleArray/MySimpleArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_3/task1/simpleArray/MySimpleArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson_3/task1/simpleArray/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_3/task1/simpleArray/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson_3/task1/simpleArray/SimpleArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_3/task1/simpleArray/SimpleArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -39,23 +43,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ugida/Downloads/AstonCourse/leesons/src/lesson_2/task2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Runner.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ugida/Downloads/AstonCourse/leesons/src/lesson_2/task2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ugida\Downloads\AstonCourse\leesons\src\lesson_2\task2" />
@@ -115,11 +119,26 @@
       <workItem from="1714028348454" duration="4891000" />
       <workItem from="1714120003656" duration="357000" />
       <workItem from="1714457430231" duration="2760000" />
-      <workItem from="1714491711915" duration="331000" />
+      <workItem from="1714491711915" duration="1961000" />
+      <workItem from="1714494162014" duration="1876000" />
+      <workItem from="1714830827974" duration="5337000" />
     </task>
+    <task id="LOCAL-00001" summary="third commit">
+      <option name="closed" value="true" />
+      <created>1714492059264</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714492059264</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
   </component>
 </project>
