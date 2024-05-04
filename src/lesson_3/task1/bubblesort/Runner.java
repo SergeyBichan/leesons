@@ -8,7 +8,7 @@ public class Runner {
         printArray(array);
 
         bubbleSort(array);
-        //проверка на отсортированность
+        //Проверка на отсортированность
         bubbleSort(array);
 
         System.out.println("\nSorted Array:");
@@ -37,8 +37,8 @@ public class Runner {
 
     // Метод для вывода массива
     public static void printArray(int[] array) {
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
+        for (int j : array) {
+            System.out.print(j + " ");
         }
         System.out.println();
     }
