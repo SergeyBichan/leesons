@@ -1,4 +1,4 @@
-package lesson_3.task1.bubblesort;
+package lesson_3.task2.bubblesort;
 
 public class Runner {
     public static void main(String[] args) {

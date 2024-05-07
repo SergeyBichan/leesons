@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4a70c72-0775-44f8-b180-328f83aba414" name="Changes" comment="add method addAll()">
+    <list default="true" id="d4a70c72-0775-44f8-b180-328f83aba414" name="Changes" comment="minimal refactoring">
+      <change afterPath="$PROJECT_DIR$/src/lesson_3/task1/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson_3/task1/bubblesort/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_3/task1/bubblesort/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson_3/task1/bubblesort/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_3/task2/bubblesort/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson_3/task1/simpleArray/MySimpleArrayIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_3/task2/simpleArray/MySimpleArrayIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson_3/task1/simpleArray/MySimpleArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_3/task2/simpleArray/MySimpleArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson_3/task1/simpleArray/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_3/task2/simpleArray/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson_3/task1/simpleArray/SimpleArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_3/task2/simpleArray/SimpleArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,34 +45,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson_3.task1.bubblesort.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ugida/Downloads/AstonCourse/leesons/src/lesson_2/task2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Runner.executor": "Run",
+    "Application.lesson_3.task1.Runner.executor": "Run",
+    "Application.lesson_3.task1.bubblesort.Runner.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ugida/Downloads/AstonCourse/leesons/src/lesson_2/task2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ugida\Downloads\AstonCourse\leesons\src\lesson_2\task2" />
       <recent name="C:\Users\ugida\Downloads\AstonCourse\leesons\src\lesson_2" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="lesson_3" />
       <recent name="lesson_3.task1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lesson_3.task1.bubblesort.Runner">
+  <component name="RunManager" selected="Application.lesson_3.task1.Runner">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson_2.task1.Main" />
       <module name="leesons" />
@@ -82,11 +89,11 @@
       </method>
     </configuration>
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson_3.task1.simpleArray.Runner" />
+      <option name="MAIN_CLASS_NAME" value="lesson_3.task2.simpleArray.Runner" />
       <module name="leesons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson_3.task1.simpleArray.*" />
+          <option name="PATTERN" value="lesson_3.task2.simpleArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson_3.task1.bubblesort.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson_3.task1.bubblesort.Runner" />
+    <configuration name="lesson_3.task1.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson_3.task1.Runner" />
       <module name="leesons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson_3.task1.bubblesort.*" />
+          <option name="PATTERN" value="lesson_3.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lesson_3.task2.bubblesort.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson_3.task2.bubblesort.Runner" />
+      <module name="leesons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_3.task2.bubblesort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,7 +129,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lesson_3.task1.bubblesort.Runner" />
+        <item itemvalue="Application.lesson_3.task1.Runner" />
+        <item itemvalue="Application.lesson_3.task2.bubblesort.Runner" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.Main" />
       </list>
@@ -137,6 +158,7 @@
       <workItem from="1714491711915" duration="1961000" />
       <workItem from="1714494162014" duration="1876000" />
       <workItem from="1714830827974" duration="5648000" />
+      <workItem from="1715075160487" duration="762000" />
     </task>
     <task id="LOCAL-00001" summary="third commit">
       <option name="closed" value="true" />
@@ -154,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714836240559</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="minimal refactoring">
+      <option name="closed" value="true" />
+      <created>1714837254549</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714837254549</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +204,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="third commit" />
     <MESSAGE value="add method addAll()" />
-    <option name="LAST_COMMIT_MESSAGE" value="add method addAll()" />
+    <MESSAGE value="minimal refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="minimal refactoring" />
   </component>
 </project>

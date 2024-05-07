@@ -1,4 +1,4 @@
-package lesson_3.task1.simpleArray;
+package lesson_3.task2.simpleArray;
 
 import java.util.Iterator;
 

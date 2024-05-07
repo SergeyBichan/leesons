@@ -1,7 +1,4 @@
-package lesson_3.task1.simpleArray;
-
-import java.util.Collection;
-import java.util.Objects;
+package lesson_3.task2.simpleArray;
 
 public interface SimpleArrayList<E> extends Iterable<E> {
     boolean add(E e);

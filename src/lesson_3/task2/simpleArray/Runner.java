@@ -1,7 +1,4 @@
-package lesson_3.task1.simpleArray;
-
-import java.util.ArrayList;
-import java.util.Collection;
+package lesson_3.task2.simpleArray;
 
 public class Runner {
     public static void main(String[] args) {
