@@ -83,7 +83,7 @@ public class PuttingIntoPractice {
         //8
         Integer minValue = transactions.stream()
                 .map(Transaction::getValue)
-                .reduce(0, Integer::min);
+                .reduce(maxValue, Integer::min);
 
         System.out.println(minValue);
 
